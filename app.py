@@ -31,7 +31,7 @@ produtos_db = {
 @app.get("/")
 def inicio():
     return {
-        "mensagem": "API Matuesite funcionando no Azure!"
+        "mensagem": "API Matuesite funcionando no Azure realizado por Guilherme e amigos, Deploy automatico realizado com sucesso!!"
     }
 
 
