@@ -18,8 +18,8 @@ produtos_db = {
         "ativo": True
     },
     2: {
-        "nome": "Mouse",
-        "preco": 50.0,
+        "nome": "Monitor",
+        "preco": 1000.0,
         "estoque": 5,
         "em_estoque": False,
         "ativo": True
@@ -31,7 +31,7 @@ produtos_db = {
 @app.get("/")
 def inicio():
     return {
-        "mensagem": "API Matuesite funcionando no Azure realizado por Guilherme e amigos, Deploy automatico realizado com sucesso!!"
+        "mensagem": "API Matuesite funcionando no Azure, atualização 09/09!!"
     }
 
 
