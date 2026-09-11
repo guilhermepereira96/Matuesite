@@ -11,8 +11,8 @@ app = FastAPI(title="API de Produtos - Exercícios Práticos")
 # Banco de dados em memória
 produtos_db = {
     1: {
-        "nome": "Teclado",
-        "preco": 100.0,
+        "nome": "Mouse",
+        "preco": 50.0,
         "estoque": 10,
         "em_estoque": True,
         "ativo": True
